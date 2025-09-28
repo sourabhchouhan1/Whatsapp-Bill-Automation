@@ -1,73 +1,71 @@
-# Welcome to your Lovable project
+# WhatsApp Bill Automation 
 
-## Project info
+This project is a modern **landing page** for a WhatsApp Bill Automation service. It is built using **React**, **Tailwind CSS**, **shadcn/ui**, **Framer Motion**, and **Lucide Icons**.
 
-**URL**: https://lovable.dev/projects/4fe6c335-11b1-4342-aff2-5c74d29e75a6
+## 🚀 Features
 
-## How can I edit this code?
+- **Hero Section** with bold headline and CTA button
+- **Feature Highlights**:
+  - Instant Reminders
+  - Seamless Payments
+  - 24/7 Automation
+- **Call-to-Action Section** with WhatsApp number capture
+- **Responsive Design** (mobile-first, clean layout)
+- **Framer Motion Animations** for smooth entry transitions
+- **Tailwind CSS + shadcn/ui** for fast, consistent styling
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide React Icons](https://lucide.dev/)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4fe6c335-11b1-4342-aff2-5c74d29e75a6) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/whatsapp-bill-automation-landing.git
+   cd whatsapp-bill-automation-landing
+   ```
 
-**Use your preferred IDE**
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+4. Open in your browser:
+   ```
+   http://localhost:3000
+   ```
 
-Follow these steps:
+## 📁 Project Structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+├── components/ui/       # shadcn/ui components
+├── pages/               # React/Next.js pages
+├── public/              # Static assets
+├── LandingPage.jsx      # Main landing page component
+└── README.md            # Documentation
 ```
 
-**Edit a file directly in GitHub**
+## 🔮 Future Improvements
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- WhatsApp API integration for direct chat initiation
+- Payment gateway integration
+- User analytics and tracking
+- Dark mode support
 
-**Use GitHub Codespaces**
+## 📄 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This project is licensed under the MIT License. Feel free to use and customize it.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4fe6c335-11b1-4342-aff2-5c74d29e75a6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+💡 **Pro Tip**: Update the CTA button with your WhatsApp API link for instant customer onboarding!
